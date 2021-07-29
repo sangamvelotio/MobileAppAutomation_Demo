@@ -65,7 +65,7 @@ exports.config = {
         "automationName": "UiAutomator2",
         "appPackage":"com.wdiodemoapp",
         "appActivity":".MainActivity",
-        "app":"C:\\Users\\Sangam Bharadiy\\Downloads\\Android-NativeDemoApp-0.4.0 (1).apk",
+        "app": join(process.cwd(), './apps/wdio.apk'),
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
